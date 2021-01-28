@@ -46,3 +46,6 @@ Citizen.CreateThread(function()
 end)
 ]]--
 ```
+
+[![ [FiveM Script][LIB]Input with GTA5 base chat system.](https://img.youtube.com/vi/2xjQ6lSAeYU/0.jpg)](https://www.youtube.com/watch?v=2xjQ6lSAeYU)
+[[FiveM Script][LIB]Input with GTA5 base chat system.](https://www.youtube.com/watch?v=2xjQ6lSAeYU)
