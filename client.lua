@@ -47,6 +47,7 @@ AddEventHandler('RequestInput', function(name,cb,x,y)
     end 
     if cbs and not cbs[name] then 
         cbs[name] = cb 
+        cbs[name]('firstrun',nil,name)
     end     
 	SetNuiFocus(true, false)
 end)
