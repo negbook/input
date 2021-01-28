@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="reset.css" type="text/css">
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<script src="./vue.js"></script>
+        
+	</head>
+	<body>
+		<div id="app" >
+        <input id="haho" type="text" value="" v-if="active" v-model="message" v-on:select="checkSelect($event)" autofocus v-on:keyup.13="checkEnter($event)" v-bind:style="{ 
+		  position:`absolute`,
+          left: `${x}%`,
+          top: `${y}%`,
+          height: `2px`,
+          width: `20px`,
+		  opacity: `${opacity}.0`         
+		  
+        }" v-focus>
+		</div>
+		<script src="./listener.js" type="text/javascript"></script>
+	</body>
+</html>
