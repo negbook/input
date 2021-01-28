@@ -1,16 +1,7 @@
 # fxserver-input
 Input utilities for FXServer
 
-[INSTALLATION]
-
-Set it as a dependency in you fxmanifest.lua
-
-```
-client_script '@input/input.lua'
-```
-
 [EVENTS]
-
 ```
 AddEventHandler('RequestInput', function(name,cb,x,y)
 ```
