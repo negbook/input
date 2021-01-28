@@ -18,9 +18,10 @@ AddEventHandler('RequestInput', function(name,cb,x,y)
 [HOW IT WORKS]
 
 ```
-TriggerEvent('RequestInput',WhoNameNeedThisInput,function(action,text)
+TriggerEvent('RequestInput',WhoNameNeedThisInput,function(action,text,who)
     action >> "update" || "enter"
     text >> "a" "b" "c" "d" || "abcd"
+    who >> nil || "somefunc"
 end,x,y)
 ```
 
