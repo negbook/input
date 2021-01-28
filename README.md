@@ -14,6 +14,8 @@ TriggerEvent('RequestInput',WhoNameNeedThisInput,function(action,text,who)
     text >> "a" "b" "c" "d" || "abcd"
     who >> nil || "somefunc"
 end,x,y)
+
+It creates an IME input and callbacks text.
 ```
 
 [EXAMPLE]
